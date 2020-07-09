@@ -1,0 +1,261 @@
+html {
+    background: rgb(252, 94, 85);
+    background: linear-gradient(0deg, rgba(250, 64, 131, 1) 0%, rgba(252, 94, 85, 1) 100%);
+}
+
+body {
+    background: url("image/image-lion-background.png") no-repeat 50% 0;
+    margin: 0 auto;
+    color: white;
+    width: 1024px;
+    min-height: 300px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.228);
+
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+    padding: 20px 0;
+    min-height: 100px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: white;
+    padding: 11px 25px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.hide {
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    margin: 20px 0 0 22px;
+    text-align: center;
+}
+
+.hide a {
+    color: #fb6d79;
+    border: none;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.hiding:hover{
+    background-color: #868686;
+}
+
+.hiding a:hover{
+color: white;
+}
+
+.dropdown:hover .hide {
+    display: block;
+}
+
+.mobileBike {
+    display: flex;
+    margin-top: 70px;
+    min-height: 300px;
+
+}
+
+button {
+    font-size: 1.125rem;
+    color: #fb6d79;
+    padding: 11px 25px;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+.mobileBike button:hover {
+    background-color: #4DC7A0;
+}
+
+.textMobileBike {
+    padding: 0 95px 0 80px;
+    flex: 2;
+}
+
+.mobileBike {
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 18px 30px 20px 30px;
+}
+
+.cards img {
+    margin-top: 30px;
+}
+
+.card1 {
+    background: url("image/image-background-card1.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 250px;
+    width: 31.5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+
+}
+
+.card2 {
+    background: url("image/image-background-card2.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 250px;
+    width: 31.5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+
+}
+
+.card3 {
+    background: url("image/image-background-card3.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 250px;
+    width: 31.5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.TESTIMONIALS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.feedback-card {
+    border: 1px solid white;
+    width: 47%;
+    margin-bottom: 40px;
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.feedback-card p {
+    margin: 0;
+}
+
+.contact-us {
+    box-sizing: border-box;
+    padding: 10px 80px;
+    min-height: 300px;
+}
+
+.contact-us form {
+    margin-top: 45px;
+}
+
+.contact-us form p {
+    margin: 0;
+}
+
+.contact-us input {
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 1rem;
+    padding-left: 10px;
+    margin-bottom: 23px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+
+}
+
+.contact-us button {
+    padding: 10px 45px;
+    margin: 0;
+}
+
+.checkbox {
+    margin-top: 20px;
+}
+
+.checkbox input {
+    margin: 10px 0 25px;
+    width: 22px;
+    height: 22px;
+}
+
+.radio {
+    margin-top: 10px;
+    height: 100%;
+}
+
+.radio-input {
+    margin-bottom: 20px;
+}
+
+.radio-input input {
+    margin: 0 10px 0 0;
+    width: 22px;
+    height: 22px;
+}
+
+.radio-input label {
+    margin-right: 40px;
+
+}
+
+
+
+
+
+
+
